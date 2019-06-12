@@ -44,17 +44,19 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(49, 22);
+            this.label1.Location = new System.Drawing.Point(6, 14);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(61, 15);
+            this.label1.Size = new System.Drawing.Size(47, 12);
             this.label1.TabIndex = 0;
             this.label1.Text = "IP地址:";
             // 
             // btnServerConn
             // 
-            this.btnServerConn.Location = new System.Drawing.Point(380, 59);
+            this.btnServerConn.Location = new System.Drawing.Point(379, 8);
+            this.btnServerConn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnServerConn.Name = "btnServerConn";
-            this.btnServerConn.Size = new System.Drawing.Size(90, 30);
+            this.btnServerConn.Size = new System.Drawing.Size(68, 24);
             this.btnServerConn.TabIndex = 1;
             this.btnServerConn.Text = "启动服务";
             this.btnServerConn.UseVisualStyleBackColor = true;
@@ -62,67 +64,75 @@
             // 
             // txtIP
             // 
-            this.txtIP.Location = new System.Drawing.Point(116, 19);
+            this.txtIP.Location = new System.Drawing.Point(56, 11);
+            this.txtIP.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtIP.Name = "txtIP";
-            this.txtIP.Size = new System.Drawing.Size(207, 25);
+            this.txtIP.Size = new System.Drawing.Size(136, 21);
             this.txtIP.TabIndex = 2;
             // 
             // txtPort
             // 
-            this.txtPort.Location = new System.Drawing.Point(116, 59);
+            this.txtPort.Location = new System.Drawing.Point(315, 11);
+            this.txtPort.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtPort.Name = "txtPort";
-            this.txtPort.Size = new System.Drawing.Size(207, 25);
+            this.txtPort.Size = new System.Drawing.Size(56, 21);
             this.txtPort.TabIndex = 4;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(35, 62);
+            this.label2.Location = new System.Drawing.Point(252, 11);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(75, 15);
+            this.label2.Size = new System.Drawing.Size(59, 12);
             this.label2.TabIndex = 3;
             this.label2.Text = "本地端口:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(35, 110);
+            this.label3.Location = new System.Drawing.Point(6, 46);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(75, 15);
+            this.label3.Size = new System.Drawing.Size(59, 12);
             this.label3.TabIndex = 10;
             this.label3.Text = "聊天内容:";
             // 
             // txtMsg
             // 
-            this.txtMsg.Location = new System.Drawing.Point(116, 107);
+            this.txtMsg.Location = new System.Drawing.Point(3, 60);
+            this.txtMsg.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtMsg.Multiline = true;
             this.txtMsg.Name = "txtMsg";
             this.txtMsg.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtMsg.Size = new System.Drawing.Size(352, 208);
+            this.txtMsg.Size = new System.Drawing.Size(444, 143);
             this.txtMsg.TabIndex = 9;
             // 
             // txtSendMsg
             // 
-            this.txtSendMsg.Location = new System.Drawing.Point(116, 332);
+            this.txtSendMsg.Location = new System.Drawing.Point(56, 207);
+            this.txtSendMsg.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtSendMsg.Name = "txtSendMsg";
-            this.txtSendMsg.Size = new System.Drawing.Size(282, 25);
+            this.txtSendMsg.Size = new System.Drawing.Size(212, 21);
             this.txtSendMsg.TabIndex = 11;
             this.txtSendMsg.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtSendMsg_KeyDown);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(50, 337);
+            this.label4.Location = new System.Drawing.Point(7, 211);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(60, 15);
+            this.label4.Size = new System.Drawing.Size(47, 12);
             this.label4.TabIndex = 12;
             this.label4.Text = "服务器:";
             // 
             // btnSendMsg
             // 
-            this.btnSendMsg.Location = new System.Drawing.Point(416, 329);
+            this.btnSendMsg.Location = new System.Drawing.Point(281, 204);
+            this.btnSendMsg.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnSendMsg.Name = "btnSendMsg";
-            this.btnSendMsg.Size = new System.Drawing.Size(90, 30);
+            this.btnSendMsg.Size = new System.Drawing.Size(68, 24);
             this.btnSendMsg.TabIndex = 13;
             this.btnSendMsg.Text = "发送消息";
             this.btnSendMsg.UseVisualStyleBackColor = true;
@@ -130,9 +140,10 @@
             // 
             // btnGetLocalIP
             // 
-            this.btnGetLocalIP.Location = new System.Drawing.Point(380, 19);
+            this.btnGetLocalIP.Location = new System.Drawing.Point(196, 11);
+            this.btnGetLocalIP.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnGetLocalIP.Name = "btnGetLocalIP";
-            this.btnGetLocalIP.Size = new System.Drawing.Size(90, 30);
+            this.btnGetLocalIP.Size = new System.Drawing.Size(52, 24);
             this.btnGetLocalIP.TabIndex = 14;
             this.btnGetLocalIP.Text = "获取IP";
             this.btnGetLocalIP.UseVisualStyleBackColor = true;
@@ -140,9 +151,9 @@
             // 
             // FrmServer
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(534, 382);
+            this.ClientSize = new System.Drawing.Size(975, 472);
             this.Controls.Add(this.btnGetLocalIP);
             this.Controls.Add(this.btnSendMsg);
             this.Controls.Add(this.label4);
@@ -154,8 +165,10 @@
             this.Controls.Add(this.txtIP);
             this.Controls.Add(this.btnServerConn);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "FrmServer";
             this.Text = "服务器端";
+            this.Load += new System.EventHandler(this.FrmServer_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

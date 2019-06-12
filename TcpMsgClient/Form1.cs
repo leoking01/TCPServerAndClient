@@ -129,5 +129,14 @@ namespace TcpMsgClient
             currentTime = DateTime.Now;
             return currentTime;
         }
+
+        private void FrmClient_Load(object sender, EventArgs e)
+        {
+            this.txtIP.Text = "127.0.0.1";
+            this.txtIP.Update();
+
+            this.txtPort.Text = "8000";
+            this.txtPort.Update();
+        }
     }
 }

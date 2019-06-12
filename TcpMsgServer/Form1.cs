@@ -53,6 +53,7 @@ namespace TcpMsgServer
                 //启动线程后 txtMsg文本框显示相应提示
                 txtMsg.AppendText("开始监听客户端传来的信息!" + "\r\n");
                 this.btnServerConn.Enabled = false;
+                this.btnGetLocalIP.Enabled = false;
             }
             catch (Exception ex) {
                 txtMsg.AppendText("服务端启动服务失败!" + "\r\n");
@@ -200,7 +201,15 @@ namespace TcpMsgServer
             IPAddress localIP = GetLocalIPv4Address();
             //赋值给文本框
             this.txtIP.Text = localIP.ToString();
-           
+        }
+
+        private void FrmServer_Load(object sender, EventArgs e)
+        {
+            this.txtIP.Text = "127.0.0.1";
+            this.txtIP.Update();
+
+            this.txtPort.Text = "8000";
+            this.txtPort.Update();
         }
     }
 }
